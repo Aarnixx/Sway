@@ -1,0 +1,25 @@
+body, html {
+  height: 100%;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+  overflow: hidden;
+}
+
+.zoom-container {
+  width: 80%;
+  text-align: center;
+  transition: transform 0.1s ease-out;
+  transform-origin: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.5rem;
+}
